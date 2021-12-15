@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>程式漂流小屋</title>
-    <link>https://happylittle7.github.io/</link>
-    <description>Recent content on 程式漂流小屋</description>
+    <title>YTP少年圖靈計畫 on 程式漂流小屋</title>
+    <link>https://happylittle7.github.io/tags/ytp%E5%B0%91%E5%B9%B4%E5%9C%96%E9%9D%88%E8%A8%88%E7%95%AB/</link>
+    <description>Recent content in YTP少年圖靈計畫 on 程式漂流小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 10 Sep 2021 20:43:22 +0800</lastBuildDate>
     
-	<atom:link href="https://happylittle7.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://happylittle7.github.io/tags/ytp%E5%B0%91%E5%B9%B4%E5%9C%96%E9%9D%88%E8%A8%88%E7%95%AB/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://happylittle7.github.io/2021/09/2021-ytp/</guid>
       <description>&lt;p&gt;今年的YTP聽說因為參賽隊伍太多(共有231隊)，所以首次引入敗部復活的機制，這次初賽共錄取了37隊進入程式挑戰營，剩下再取84隊進入敗部復活賽，而非常不巧，要是照往年的經驗我們這隊應該可以快樂去吃Pizza，但就這麼剛好因為初賽小燒雞再加上新的賽制，我們這隊就剛好是進入復活賽的那隊QQ&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hello Blog!</title>
-      <link>https://happylittle7.github.io/2021/09/hello-blog/</link>
-      <pubDate>Wed, 08 Sep 2021 12:58:04 +0800</pubDate>
-      
-      <guid>https://happylittle7.github.io/2021/09/hello-blog/</guid>
-      <description>&lt;p&gt;距離上次用 Github 也好一陣子了，自從升上高中後就一直不斷對程式和生活有更多的體悟，可惜都沒有認真仔細地紀錄下來，現在回過頭來看感覺好可惜QQ，於是這個 Blog 就這樣誕生了！Hello Blog!&lt;/p&gt;</description>
     </item>
     
   </channel>
