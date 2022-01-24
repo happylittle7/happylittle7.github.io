@@ -1,33 +1,185 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>程式漂流小屋</title>
-    <link>https://happylittle7.github.io/</link>
-    <description>Recent content on 程式漂流小屋</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Fri, 10 Sep 2021 20:43:22 +0800</lastBuildDate>
-    
-	<atom:link href="https://happylittle7.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>2021 YTP少年圖靈計畫復活賽</title>
-      <link>https://happylittle7.github.io/2021/09/2021-ytp/</link>
-      <pubDate>Fri, 10 Sep 2021 20:43:22 +0800</pubDate>
-      
-      <guid>https://happylittle7.github.io/2021/09/2021-ytp/</guid>
-      <description>&lt;p&gt;今年的YTP聽說因為參賽隊伍太多(共有231隊)，所以首次引入敗部復活的機制，這次初賽共錄取了37隊進入程式挑戰營，剩下再取84隊進入敗部復活賽，而非常不巧，要是照往年的經驗我們這隊應該可以快樂去吃Pizza，但就這麼剛好因為初賽小燒雞再加上新的賽制，我們這隊就剛好是進入復活賽的那隊QQ&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hello Blog!</title>
-      <link>https://happylittle7.github.io/2021/09/hello-blog/</link>
-      <pubDate>Wed, 08 Sep 2021 12:58:04 +0800</pubDate>
-      
-      <guid>https://happylittle7.github.io/2021/09/hello-blog/</guid>
-      <description>&lt;p&gt;距離上次用 Github 也好一陣子了，自從升上高中後就一直不斷對程式和生活有更多的體悟，可惜都沒有認真仔細地紀錄下來，現在回過頭來看感覺好可惜QQ，於是這個 Blog 就這樣誕生了！Hello Blog!&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>程式漂流小屋</title>
+        <link>https://happylittle7.github.io/</link>
+        <description>Recent content on 程式漂流小屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-TW</language>
+        <lastBuildDate>Fri, 10 Sep 2021 20:43:22 +0800</lastBuildDate><atom:link href="https://happylittle7.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2021 YTP少年圖靈計畫復活賽心得</title>
+        <link>https://happylittle7.github.io/p/2021-young-turing-program/</link>
+        <pubDate>Fri, 10 Sep 2021 20:43:22 +0800</pubDate>
+        
+        <guid>https://happylittle7.github.io/p/2021-young-turing-program/</guid>
+        <description>&lt;img src="https://res.cloudinary.com/happylittle7/image/upload/c_crop,h_1400,w_3024,y_0/v1631328915/myBlog/S__2777099_imyooj.jpg" alt="Featured image of post 2021 YTP少年圖靈計畫復活賽心得" /&gt;&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;今年的YTP聽說因為參賽隊伍太多(共有231隊)，所以首次引入敗部復活的機制，這次初賽共錄取了37隊進入程式挑戰營，剩下再取84隊進入敗部復活賽，而非常不巧，要是照往年的經驗我們這隊應該可以快樂去吃Pizza，但就這麼剛好因為初賽小燒雞再加上新的賽制，我們這隊就剛好是進入復活賽的那隊QQ&lt;/p&gt;
+&lt;p&gt;這次的復活賽時間總共為1小時又30分鐘，題目加上一開始的送分題共有7題，老實說和 TOI 或 HP CodeWar 等其他比賽相比，這種時間短的比賽我非常不習慣，在解題的時候明顯感受到相當大的壓力，平常很少訓練自己在這麼短的時間解題，我對這次自己在復活賽的表現說不上太滿意。&lt;/p&gt;
+&lt;p&gt;由於時間非常短的關係，我大概和隊友稍微概覽題目後就開寫p2了，p2是非常常見的枚舉經典題，給定4x4或9x9的數獨，請求用程式將題目中的空格依照數獨的規則(直排橫列及該小格不可同時出現相同的數字or符號)填滿，這類的題目通常只要枚舉再配合剪枝就能輕鬆 AC 了，原本以為應該可以輕鬆拿到這題的，但沒想到最後竟然燒雞&amp;hellip;真的覺得非常可惜。&lt;/p&gt;
+&lt;p&gt;&amp;hellip;對然後我就因為這題p2直接把整場比賽時間給燒光了，感謝學長凱瑞，讓我們這隊看起來沒有這麼慘，賽後我們重新冷靜下來後，發現p4好像沒有這麼難，大概是有關對稱的題目(?，大約 10 多分鐘後就解掉了，可惜賽中沒有發現&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;個人反思&#34;&gt;個人反思&lt;/h2&gt;
+&lt;p&gt;這次復活賽應該是和程式挑戰營無緣了QAQ，這次真的很可惜，有不少題目是後來賽後 AC，比賽的時候時間和隊伍人手分配真的非！常！重！要！尤其這種短時間的比賽更需要隊友之間的合作，埋頭苦幹糾結一題太久可能真的會讓比賽炸鍋，卡題時也要讓卡題的時間有價值，要知道自己現在正在幹嘛，除此之外，不用說我的實力仍需要繼續提升，或許只能繼續靠刷題和研究演算法了&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;意外插曲&#34;&gt;意外插曲&lt;/h2&gt;
+&lt;p&gt;生為虔誠的乖乖教徒，賽前特別衝去便利商店買一包綠色乖乖，還特地在上面請求保佑 AC 不燒雞 ，結果&lt;br&gt;
+.&lt;br&gt;
+.&lt;br&gt;
+.&lt;br&gt;
+.&lt;br&gt;
+.&lt;br&gt;
+.&lt;br&gt;
+.&lt;br&gt;
+我居然把雞寫錯了&amp;hellip;&amp;hellip;&amp;hellip;.然後就真的燒雞了，真的太扯了Orz，超想殺死自己的&amp;hellip;
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/happylittle7/image/upload/v1631328915/myBlog/S__2777099_imyooj.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/happylittle7/image/upload/v1631328915/myBlog/S__2777099_imyooj.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;special-thanks&#34;&gt;Special Thanks&lt;/h2&gt;
+&lt;p&gt;特別感謝 Tedhandsome, Edmond, Suminwen 凱瑞&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Hello Blog!</title>
+        <link>https://happylittle7.github.io/p/hello-blog/</link>
+        <pubDate>Wed, 08 Sep 2021 12:58:04 +0800</pubDate>
+        
+        <guid>https://happylittle7.github.io/p/hello-blog/</guid>
+        <description>&lt;img src="https://happylittle7.github.io/p/hello-blog/cover.jpg" alt="Featured image of post Hello Blog!" /&gt;&lt;p&gt;距離上次用 Github 也好一陣子了，自從升上高中後就一直不斷對程式和生活有更多的體悟，可惜都沒有認真仔細地紀錄下來，現在回過頭來看感覺好可惜QQ，於是這個 Blog 就這樣誕生了！Hello Blog!&lt;/p&gt;
+&lt;p&gt;沒意外的話以後相關比賽的心得會發在這裡，也會把之前散落各地的賽後心得統一整理在這，順便記錄一些神奇的黑科技，還有關於科技相關的東西，偶爾應該也會分享近期的現況，一來不只是記錄過程，還可以順便練練文筆(&lt;del&gt;真是一舉兩得&lt;/del&gt;~有任何想法歡迎留言一起討論交流:)，希望我的想法能帶給你一些幫助。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>2021 TOI 臺灣資訊奧林匹亞初選心得</title>
+        <link>https://happylittle7.github.io/p/2021-toi/</link>
+        <pubDate>Mon, 15 Mar 2021 02:31:50 +0800</pubDate>
+        
+        <guid>https://happylittle7.github.io/p/2021-toi/</guid>
+        <description>&lt;img src="https://res.cloudinary.com/happylittle7/image/upload/c_crop,h_1798,w_2448,y_644/v1642999704/myBlog/2021-TOI-pre/IMG_4167_o7hci3.jpg" alt="Featured image of post 2021 TOI 臺灣資訊奧林匹亞初選心得" /&gt;&lt;blockquote&gt;
+&lt;p&gt;Rk. 87/335&lt;br&gt;
+Score:100/500&lt;br&gt;
+題目大綱: &lt;a class=&#34;link&#34; href=&#34;https://reurl.cc/qmYZYR&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://reurl.cc/qmYZYR&lt;/a&gt;&lt;br&gt;
+排行榜: &lt;a class=&#34;link&#34; href=&#34;https://cms.tfcis.org/dumprank/rank/toi2021/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://cms.tfcis.org/dumprank/rank/toi2021/&lt;/a&gt;&lt;br&gt;
+題目連結: &lt;a class=&#34;link&#34; href=&#34;https://tioj.ck.tp.edu.tw/problems/tag/2021-TOI-pre&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://tioj.ck.tp.edu.tw/problems/tag/2021-TOI-pre&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;初次參賽心得&#34;&gt;初次參賽心得&lt;/h2&gt;
+&lt;p&gt;離 TOI 初選不知不覺也過一星期了，高中第一次參賽，其實整體感覺蠻新鮮的，算是一次蠻重要的經驗。&lt;/p&gt;
+&lt;p&gt;早上怕自己比賽比到一半腦袋當機，還特地提早殺去師大公館附近的咖啡店醒腦，然而事實證明解不開的題目依舊解不開～話說師大公館真的是美食沙漠欸，差點找不到東西吃，最後吃了一碗很寒酸的拉麵，超怕比賽時餓死在裡面（沒&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/happylittle7/image/upload/c_crop,h_2398,w_2448,y_208/v1643036990/myBlog/2021-TOI-pre/IMG_4149_iullig.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/happylittle7/image/upload/c_crop,h_2398,w_2448,y_208/v1643036990/myBlog/2021-TOI-pre/IMG_4149_iullig.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;那碗傳說中的拉麵&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;那碗傳說中的拉麵&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;報到的時候不知道為何莫名興奮！？看到自己認識的許多同學外，還遇到許多名不虛傳的真電神，不是進過選訓營就是當過國手，他們電壓真的太高了 感覺真的好像遇到明星，排隊等進場時超想衝上去和他們握手ww&lt;/p&gt;
+&lt;p&gt;比賽宣布開始那一剎那，教室瞬間從安靜到充滿鍵盤聲，我真的嚇到，感覺自己真的是隻小菜鳥。&lt;/p&gt;
+&lt;h2 id=&#34;題目回顧&#34;&gt;題目回顧&lt;/h2&gt;
+&lt;h3 id=&#34;pa-原始人排序&#34;&gt;pA 原始人排序&lt;/h3&gt;
+&lt;p&gt;剛開始看到很慌張忘記怎麼把十進位轉成二進位，還以為這次要掛蛋了，後來冷靜下刻個 struct 然後 sort 一下就拿滿了（賽後聽說 yennnn 這題沒拿滿，幫你 RIP QAQ），但這也成為整場我唯一解出的題目&amp;hellip;或許第87名不是巧合？&lt;/p&gt;
+&lt;h3 id=&#34;pb-原始人排序&#34;&gt;pB 原始人排序&lt;/h3&gt;
+&lt;p&gt;一台掃地機器人和許多骯髒的房間，問如何掃到最多灰塵，想了很久但真的想不出規則，後來出會場才知道這題和&lt;a class=&#34;link&#34; href=&#34;https://tioj.ck.tp.edu.tw/problems/1399&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TIOJ 1399. 超級撈魚活動&lt;/a&gt;幾乎一樣，可以用二分搜在 $O(n2logS)$ 的狀況下解決。&lt;/p&gt;
+&lt;h3 id=&#34;pc-粉刷護欄&#34;&gt;pC 粉刷護欄&lt;/h3&gt;
+&lt;p&gt;賽中看起來有點像類似二分圖的問題，求欄杆彼此不相交的最大數目，欄杆亂編號真的超討厭的😅，一樣想很久解不出來&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;pd-乘車時間&#34;&gt;pD 乘車時間&lt;/h3&gt;
+&lt;p&gt;模擬一個地鐵系統，給定路線圖和每班車發車的時間 回答旅客各種刁鑽的問題，這題竟然光題目就用了12個參數，看到真的快昏倒，想說最後硬幹看能不能拿部份分，結果時間就這樣消逝了&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;pe-密室逃脫&#34;&gt;pE 密室逃脫&lt;/h3&gt;
+&lt;p&gt;今年大毒瘤，題目有超過80%都是廢話，不過感覺有點像砲打皮皮？&lt;/p&gt;
+&lt;h2 id=&#34;總結&#34;&gt;總結&lt;/h2&gt;
+&lt;p&gt;比賽時有想到之前 IOICamp 的二分圖和匹配 感覺很熟悉，雖然一樣沒解出來&amp;hellip;賽後才聽說有題好像是類似UVa上的題目？傻眼😅，聽說 Starfish 有想到解法？也太強了&amp;hellip;我比賽時看到這題腦袋是一片空白欸，連喇分都不知道從何下手～&lt;/p&gt;
+&lt;p&gt;比完賽，不意外自己還有很長的一段路要走，有很多基本的演算法和資料結構沒有徹底掌握，需要好好再加強，另外聽說有位國中生拿了全場第二！？真的太令人佩服了！&lt;/p&gt;
+&lt;p&gt;最後由衷感謝 yennnn 一家晚餐請的羊肉爐，真的好吃，幫補回了很多血，多謝啦～
+&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 112; 
+			flex-basis: 270px&#34;
+	&gt;
+	&lt;a href=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4144.jpg&#34; data-size=&#34;2448x2175&#34;&gt;
+		&lt;img src=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4144.jpg&#34;
+			width=&#34;2448&#34;
+			height=&#34;2175&#34;
+			srcset=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4144_hubda13affc26c866fb99695bbd59a43d5_341068_480x0_resize_q75_box.jpg 480w, https://happylittle7.github.io/p/2021-toi/IMG_4144_hubda13affc26c866fb99695bbd59a43d5_341068_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;早起醒腦的咖啡&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;早起醒腦的咖啡&lt;/figcaption&gt;
+	
+&lt;/figure&gt; &lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 89; 
+			flex-basis: 213px&#34;
+	&gt;
+	&lt;a href=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4148.jpg&#34; data-size=&#34;2448x2747&#34;&gt;
+		&lt;img src=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4148.jpg&#34;
+			width=&#34;2448&#34;
+			height=&#34;2747&#34;
+			srcset=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4148_huc10cabbf194ace5ce1466840bfb765ce_564184_480x0_resize_q75_box.jpg 480w, https://happylittle7.github.io/p/2021-toi/IMG_4148_huc10cabbf194ace5ce1466840bfb765ce_564184_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;到達比賽會場&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;到達比賽會場&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;br&gt;
+&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 144; 
+			flex-basis: 346px&#34;
+	&gt;
+	&lt;a href=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4153.jpg&#34; data-size=&#34;3258x2256&#34;&gt;
+		&lt;img src=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4153.jpg&#34;
+			width=&#34;3258&#34;
+			height=&#34;2256&#34;
+			srcset=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4153_hu887405e40422ac71696e58b6c486af36_622590_480x0_resize_q75_box.jpg 480w, https://happylittle7.github.io/p/2021-toi/IMG_4153_hu887405e40422ac71696e58b6c486af36_622590_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;看見名單還是會覺得緊張&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;看見名單還是會覺得緊張&lt;/figcaption&gt;
+	
+&lt;/figure&gt; &lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 75; 
+			flex-basis: 180px&#34;
+	&gt;
+	&lt;a href=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4172.jpg&#34; data-size=&#34;2448x3264&#34;&gt;
+		&lt;img src=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4172.jpg&#34;
+			width=&#34;2448&#34;
+			height=&#34;3264&#34;
+			srcset=&#34;https://happylittle7.github.io/p/2021-toi/IMG_4172_hu0f03106c47974dd296c67e0728e4270f_267301_480x0_resize_q75_box.jpg 480w, https://happylittle7.github.io/p/2021-toi/IMG_4172_hu0f03106c47974dd296c67e0728e4270f_267301_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;真正踏入會場了&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;真正踏入會場了&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

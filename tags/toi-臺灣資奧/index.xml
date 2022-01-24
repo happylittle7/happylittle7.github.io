@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TOI 臺灣資奧 on 程式漂流小屋</title>
+    <link>https://happylittle7.github.io/tags/toi-%E8%87%BA%E7%81%A3%E8%B3%87%E5%A5%A7/</link>
+    <description>Recent content in TOI 臺灣資奧 on 程式漂流小屋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 15 Mar 2021 02:31:50 +0800</lastBuildDate><atom:link href="https://happylittle7.github.io/tags/toi-%E8%87%BA%E7%81%A3%E8%B3%87%E5%A5%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021 TOI 臺灣資訊奧林匹亞初選心得</title>
+      <link>https://happylittle7.github.io/p/2021-toi/</link>
+      <pubDate>Mon, 15 Mar 2021 02:31:50 +0800</pubDate>
+      
+      <guid>https://happylittle7.github.io/p/2021-toi/</guid>
+      <description>Rk. 87/335
+Score:100/500
+題目大綱: https://reurl.cc/qmYZYR
+排行榜: https://cms.tfcis.org/dumprank/rank/toi2021/
+題目連結: https://tioj.ck.tp.edu.tw/problems/tag/2021-TOI-pre
+ 初次參賽心得 離 TOI 初選不知不覺也過一星期了，高中第一次參賽，其實整體感覺蠻新鮮的，算是一次蠻重要的經驗。
+早上怕自己比賽比到一半腦袋當機，還特地提早殺去師大公館附近的咖啡店醒腦，然而事實證明解不開的題目依舊解不開～話說師大公館真的是美食沙漠欸，差點找不到東西吃，最後吃了一碗很寒酸的拉麵，超怕比賽時餓死在裡面（沒
+ 那碗傳說中的拉麵 
+報到的時候不知道為何莫名興奮！？看到自己認識的許多同學外，還遇到許多名不虛傳的真電神，不是進過選訓營就是當過國手，他們電壓真的太高了 感覺真的好像遇到明星，排隊等進場時超想衝上去和他們握手ww
+比賽宣布開始那一剎那，教室瞬間從安靜到充滿鍵盤聲，我真的嚇到，感覺自己真的是隻小菜鳥。
+題目回顧 pA 原始人排序 剛開始看到很慌張忘記怎麼把十進位轉成二進位，還以為這次要掛蛋了，後來冷靜下刻個 struct 然後 sort 一下就拿滿了（賽後聽說 yennnn 這題沒拿滿，幫你 RIP QAQ），但這也成為整場我唯一解出的題目&amp;hellip;或許第87名不是巧合？
+pB 原始人排序 一台掃地機器人和許多骯髒的房間，問如何掃到最多灰塵，想了很久但真的想不出規則，後來出會場才知道這題和TIOJ 1399. 超級撈魚活動幾乎一樣，可以用二分搜在 $O(n2logS)$ 的狀況下解決。
+pC 粉刷護欄 賽中看起來有點像類似二分圖的問題，求欄杆彼此不相交的最大數目，欄杆亂編號真的超討厭的😅，一樣想很久解不出來&amp;hellip;
+pD 乘車時間 模擬一個地鐵系統，給定路線圖和每班車發車的時間 回答旅客各種刁鑽的問題，這題竟然光題目就用了12個參數，看到真的快昏倒，想說最後硬幹看能不能拿部份分，結果時間就這樣消逝了&amp;hellip;
+pE 密室逃脫 今年大毒瘤，題目有超過80%都是廢話，不過感覺有點像砲打皮皮？
+總結 比賽時有想到之前 IOICamp 的二分圖和匹配 感覺很熟悉，雖然一樣沒解出來&amp;hellip;賽後才聽說有題好像是類似UVa上的題目？傻眼😅，聽說 Starfish 有想到解法？也太強了&amp;hellip;我比賽時看到這題腦袋是一片空白欸，連喇分都不知道從何下手～
+比完賽，不意外自己還有很長的一段路要走，有很多基本的演算法和資料結構沒有徹底掌握，需要好好再加強，另外聽說有位國中生拿了全場第二！？真的太令人佩服了！
+最後由衷感謝 yennnn 一家晚餐請的羊肉爐，真的好吃，幫補回了很多血，多謝啦～  早起醒腦的咖啡   到達比賽會場 
+ 看見名單還是會覺得緊張   真正踏入會場了</description>
+    </item>
+    
+  </channel>
+</rss>
