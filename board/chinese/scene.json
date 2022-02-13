@@ -1,0 +1,19 @@
+{
+	"general" : 
+	{
+		"ambientcolor" : "0.3 0.3 0.3",
+		"bloom" : false,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"clearcolor" : "0.7 0.7 0.7",
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.3 0.3 0.3"
+	},
+	"objects" : [],
+	"version" : 1
+}
