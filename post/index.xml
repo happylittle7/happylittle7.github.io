@@ -6,7 +6,17 @@
     <description>Recent content in Posts on 程式漂流小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 10 Sep 2021 20:43:22 +0800</lastBuildDate><atom:link href="https://happylittle7.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 18:35:05 +0800</lastBuildDate><atom:link href="https://happylittle7.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>並查集(Disjoint Sets)</title>
+      <link>https://happylittle7.github.io/p/disjoint-sets/</link>
+      <pubDate>Sun, 23 Jan 2022 18:35:05 +0800</pubDate>
+      
+      <guid>https://happylittle7.github.io/p/disjoint-sets/</guid>
+      <description>並查集(Disjoint Sets)，是一個可以用來維護元素和集合關係的資料結構，
+基本操作 初始化 int n=1000; //假設共有n個點 int dsu[1000]; //建一個紀錄集合編號的陣列，若dsu[n]==n，代表為根  //初始化集合 void initt(){ for(int i=0;i&amp;lt;=n;i++){ //初始每個集合只有自己  dsu[i]=i; } } 查詢 //傳入要找尋的目標 int findd(int x){ if(x!=dsu[x]){ //往上尋找祖先，再遞迴更新路上遇到的節點  dsu[x]=Find(dsu[x]); } return dsu[x]; } 合併 void unionn(int x,int y){ int a=findd(x); int b=findd(y); //若集合編號不相同，則進行合併，  if(a!=b){ dsu[a]=b; } } </description>
+    </item>
+    
     <item>
       <title>2021 YTP少年圖靈計畫復活賽心得</title>
       <link>https://happylittle7.github.io/p/2021-young-turing-program/</link>

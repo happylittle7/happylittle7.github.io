@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>學習筆記 on 程式漂流小屋</title>
-    <link>https://happylittle7.github.io/categories/learning-note/</link>
-    <description>Recent content in 學習筆記 on 程式漂流小屋</description>
+    <title>資料結構 on 程式漂流小屋</title>
+    <link>https://happylittle7.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</link>
+    <description>Recent content in 資料結構 on 程式漂流小屋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 23 Jan 2022 18:35:05 +0800</lastBuildDate><atom:link href="https://happylittle7.github.io/categories/learning-note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 18:35:05 +0800</lastBuildDate><atom:link href="https://happylittle7.github.io/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>並查集(Disjoint Sets)</title>
       <link>https://happylittle7.github.io/p/disjoint-sets/</link>
