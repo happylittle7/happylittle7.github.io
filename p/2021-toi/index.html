@@ -32,7 +32,7 @@ if (!doNotTrack) {
         (function() {
             const colorSchemeKey = 'StackColorScheme';
             if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
+                localStorage.setItem(colorSchemeKey, "dark");
             }
         })();
     </script><script>
@@ -160,7 +160,7 @@ Score:100/500<br>
 <h2 id="題目回顧">題目回顧</h2>
 <h3 id="pa-原始人排序">pA 原始人排序</h3>
 <p>剛開始看到很慌張忘記怎麼把十進位轉成二進位，還以為這次要掛蛋了，後來冷靜下刻個 struct 然後 sort 一下就拿滿了（賽後聽說 yennnn 這題沒拿滿，幫你 RIP QAQ），但這也成為整場我唯一解出的題目&hellip;或許第87名不是巧合？</p>
-<h3 id="pb-原始人排序">pB 原始人排序</h3>
+<h3 id="pb-掃地機器人">pB 掃地機器人</h3>
 <p>一台掃地機器人和許多骯髒的房間，問如何掃到最多灰塵，想了很久但真的想不出規則，後來出會場才知道這題和<a class="link" href="https://tioj.ck.tp.edu.tw/problems/1399"  target="_blank" rel="noopener"
     >TIOJ 1399. 超級撈魚活動</a>幾乎一樣，可以用二分搜在 $O(n2logS)$ 的狀況下解決。</p>
 <h3 id="pc-粉刷護欄">pC 粉刷護欄</h3>
@@ -507,7 +507,7 @@ Score:100/500<br>
     <li><a href="#題目回顧">題目回顧</a>
       <ol>
         <li><a href="#pa-原始人排序">pA 原始人排序</a></li>
-        <li><a href="#pb-原始人排序">pB 原始人排序</a></li>
+        <li><a href="#pb-掃地機器人">pB 掃地機器人</a></li>
         <li><a href="#pc-粉刷護欄">pC 粉刷護欄</a></li>
         <li><a href="#pd-乘車時間">pD 乘車時間</a></li>
         <li><a href="#pe-密室逃脫">pE 密室逃脫</a></li>

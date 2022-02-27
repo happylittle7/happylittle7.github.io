@@ -132,7 +132,7 @@ Score:100/500&lt;br&gt;
 &lt;h2 id=&#34;題目回顧&#34;&gt;題目回顧&lt;/h2&gt;
 &lt;h3 id=&#34;pa-原始人排序&#34;&gt;pA 原始人排序&lt;/h3&gt;
 &lt;p&gt;剛開始看到很慌張忘記怎麼把十進位轉成二進位，還以為這次要掛蛋了，後來冷靜下刻個 struct 然後 sort 一下就拿滿了（賽後聽說 yennnn 這題沒拿滿，幫你 RIP QAQ），但這也成為整場我唯一解出的題目&amp;hellip;或許第87名不是巧合？&lt;/p&gt;
-&lt;h3 id=&#34;pb-原始人排序&#34;&gt;pB 原始人排序&lt;/h3&gt;
+&lt;h3 id=&#34;pb-掃地機器人&#34;&gt;pB 掃地機器人&lt;/h3&gt;
 &lt;p&gt;一台掃地機器人和許多骯髒的房間，問如何掃到最多灰塵，想了很久但真的想不出規則，後來出會場才知道這題和&lt;a class=&#34;link&#34; href=&#34;https://tioj.ck.tp.edu.tw/problems/1399&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;TIOJ 1399. 超級撈魚活動&lt;/a&gt;幾乎一樣，可以用二分搜在 $O(n2logS)$ 的狀況下解決。&lt;/p&gt;
 &lt;h3 id=&#34;pc-粉刷護欄&#34;&gt;pC 粉刷護欄&lt;/h3&gt;
